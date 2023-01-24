@@ -117,5 +117,8 @@ spyEls.forEach((spyEl) => {
         .addTo(new ScrollMagic.Controller());
 })
 
+const thisYear = document.querySelector('.this-year');
+thisYear.textContent = new Date().getFullYear();
+
 
 
